@@ -1,0 +1,34 @@
+src/*.exe
+src/elitecoin
+src/elitecoind
+src/test_elitecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.elitecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+elitecoin-qt
+Elitecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+elitecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
